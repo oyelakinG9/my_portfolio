@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@700&display=swap");
 
 * {
   padding: 0;
@@ -57,9 +57,16 @@ header {
   color: #fff;
 }
 
+.logo-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
 .my-self {
   background: #1c1a19;
-  padding: 35% 5%;
+  padding: 30% 5%;
   height: 100vh;
 }
 
@@ -68,10 +75,10 @@ header {
 }
 
 .my-name {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ff6b00;
   font-size: 37px;
-  width: 88%;
+  width: 91%;
   line-height: 64px;
 }
 
@@ -82,14 +89,14 @@ header {
 .my-text {
   color: #fff;
   margin: 5% 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 24px;
 }
 
 .group1 {
   background-image: url("../assets/images/group1.svg");
-  width: 9em;
+  width: 8em;
   height: 17em;
   top: 23em;
-  left: 12em;
+  left: 60%;
 }
