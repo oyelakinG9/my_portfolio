@@ -10,10 +10,6 @@
 ![Screenshot (30)](https://user-images.githubusercontent.com/61976324/143286863-79753c26-27a1-4aee-9e12-dc43577ad99d.png)
 
 
-## Desktop version output
-
-![Screenshot (31)](https://user-images.githubusercontent.com/61976324/143286964-c1723a7f-0f0f-4850-b2c8-0351fe7d7529.png)
-
 Additional description about the project and its features.
 
 ## Built With
