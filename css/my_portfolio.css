@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background: #e5e5e5;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.margin-left-5 {
+  margin-left: 5%;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  background: #3c3a39;
+  height: 4em;
+  padding: 10%;
+}
+
+.logo {
+  color: #fff;
+}
+
+.my-self {
+  background: #1c1a19;
+  padding: 35% 5%;
+  height: 100vh;
+}
+
+.myself-header {
+  width: 95%;
+}
+
+.my-name {
+  font-family: crete round;
+  color: #ff6b00;
+  font-size: 37px;
+  width: 88%;
+  line-height: 64px;
+}
+
+.my-work {
+  color: #fff5e1;
+}
+
+.my-text {
+  color: #fff;
+  margin: 5% 0;
+  font-family: Poppins;
+  line-height: 24px;
+}
+
+.group1 {
+  background-image: url("../assets/images/group1.svg");
+  width: 9em;
+  height: 17em;
+  top: 23em;
+  left: 12em;
+}
+
+/* @media screen and (min-width: 996px) {
+  .list-style-none-lg {
+    list-style: none;
+  }
+
+  .d-flex-lg {
+    display: flex;
+  }
+
+  .d-block-lg {
+    display: block;
+  }
+
+  .d-grid-lg {
+    display: grid;
+  }
+
+  .d-none-lg {
+    display: none;
+  }
+
+  .margin-left-5 {
+    margin-left: 0;
+  }
+
+  .margin-top-lg {
+    margin-top: 1em;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    background: #3c3a39;
+    height: 3em;
+    padding: 3%;
+    z-index: 1;
+  }
+
+  .logo {
+    color: #fff;
+  }
+
+  .nav-list {
+    position: absolute;
+    left: 60%;
+  }
+
+  .nav-item {
+    margin-left: 10%;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .my-self {
+    background: #1c1a19;
+    padding: 12% 5%;
+    height: 100vh;
+  }
+
+  .myself-header {
+    width: 80%;
+    float: right;
+    margin-right: 10%;
+  }
+
+  .my-name {
+    font-family: crete round;
+    color: #ff6b00;
+    font-size: 60px;
+    width: 45%;
+    line-height: 89px;
+  }
+
+  .my-work {
+    color: #fff5e1;
+  }
+
+  .my-text {
+    color: #fff;
+    margin: 5% 0;
+    font-family: Poppins;
+    line-height: 24px;
+    width: 45%;
+  }
+
+  .media-icons {
+    margin-top: 10%;
+  }
+
+  .group2 {
+    background-image: url("../assets/images/group2.svg");
+    width: 44em;
+    height: 46em;
+    top: 0;
+    left: 40em;
+  }
+
+} */
