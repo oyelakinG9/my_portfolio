@@ -174,7 +174,7 @@ header {
   width: 29%;
   margin: 2% 4%;
   height: 3em;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -185,11 +185,17 @@ header {
   color: #fff;
 }
 
+button:hover {
+  background: #e05304;
+  border: 1px solid #f55800;
+  color: #f4f1f0;
+}
+
 .btn-cards {
   width: 100%;
   float: left;
   margin-left: 0;
-  height: 4em;
+  height: 4.1em;
   color: #fff;
 }
 
@@ -220,7 +226,7 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  width: 78%;
+  width: 90%;
 }
 
 .skillcard {
