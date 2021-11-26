@@ -101,6 +101,7 @@ header {
 }
 
 #work-section {
+  display: grid;
   text-align: center;
 }
 
@@ -186,6 +187,12 @@ header {
 }
 
 button:hover {
+  background: #f4f1f0;
+  border: 1px solid #f55800;
+  color: #e05304;
+}
+
+button:active {
   background: #e05304;
   border: 1px solid #f55800;
   color: #f4f1f0;
