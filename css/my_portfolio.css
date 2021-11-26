@@ -120,11 +120,11 @@ header {
 }
 
 .cards {
-  margin-top: 21%;
+  margin-top: 17%;
 }
 
 .card-name {
-  margin-right: 8rem;
+  margin-right: 27%;
 }
 
 .card-text {
@@ -142,28 +142,28 @@ header {
 }
 
 .skill1 {
-  margin: 4%;
+  margin: 4% 1% 4% 4%;
   border: 1px solid #8993a4;
   width: 4em;
   background: #fff;
 }
 
 .skill2 {
-  margin: 4%;
+  margin: 4% 1%;
   border: 1px solid #8993a4;
   width: 4em;
   background: #fff;
 }
 
 .skill3 {
-  margin: 4%;
+  margin: 4% 1% 4%;
   border: 1px solid #8993a4;
   width: 8em;
   background: #fff;
 }
 
 .skill4 {
-  margin: 4%;
+  margin: 4% 1% 4% 1%;
   border: 1px solid #8993a4;
   width: 4em;
   background: #fff;
@@ -174,8 +174,15 @@ header {
   width: 29%;
   margin: 2% 4%;
   height: 3em;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
   background: #ff6b00;
   border: #ff6b00;
+  text-align: center;
+  color: #fff;
 }
 
 .btn-cards {
@@ -196,13 +203,14 @@ header {
 .card-headline {
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 32px;
   line-height: 44px;
   color: #fff;
   text-align: left;
   margin-left: 6%;
   padding-top: 40%;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
+  width: 105%;
 }
 
 .card-headline-text {
@@ -221,15 +229,17 @@ header {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 19px;
+  line-height: 35px;
   height: 37px;
+  text-align: center;
 }
 
 #about-us {
   background: #1c1a19;
-  height: 251vh;
+  height: 300vh;
   position: relative;
+  margin-top: 30%;
 }
 
 .about-me {
@@ -239,10 +249,10 @@ header {
 
 .about-us-header {
   color: #ff6b00;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 80px;
   text-align: center;
 }
@@ -254,7 +264,7 @@ header {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   padding-top: 7%;
 }
@@ -274,7 +284,7 @@ header {
   position: absolute;
   width: 10em;
   height: 16em;
-  left: 55%;
+  left: 50%;
   top: 18%;
 }
 
@@ -286,10 +296,19 @@ header {
   left: 4%;
 }
 
+.ellipse1 {
+  background-image: url("../assets/images/Ellipse1.svg");
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  left: 60%;
+  top: 31%;
+}
+
 .about-skill {
-  padding-top: 73%;
+  padding-top: 90%;
   text-align: center;
-  padding-bottom: 40%;
+  padding-bottom: 35%;
 }
 
 .language {
