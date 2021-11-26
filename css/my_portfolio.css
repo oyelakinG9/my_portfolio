@@ -99,3 +99,224 @@ header {
   top: 23em;
   left: 60%;
 }
+
+#work-section {
+  text-align: center;
+}
+
+.card-work {
+  margin-top: 26%;
+}
+
+.card-header-name {
+  font-size: 2rem;
+  color: #1c1a19;
+}
+
+.card-header-border {
+  width: 80%;
+  border: 1px solid #212121;
+  margin: 9%;
+}
+
+.cards {
+  margin-top: 21%;
+}
+
+.card-name {
+  margin-right: 8rem;
+}
+
+.card-text {
+  text-align: left;
+  margin-left: 4%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 95%;
+}
+
+.skills {
+  width: 95%;
+}
+
+.skill1 {
+  margin: 4%;
+  border: 1px solid #8993a4;
+  width: 4em;
+  background: #fff;
+}
+
+.skill2 {
+  margin: 4%;
+  border: 1px solid #8993a4;
+  width: 4em;
+  background: #fff;
+}
+
+.skill3 {
+  margin: 4%;
+  border: 1px solid #8993a4;
+  width: 8em;
+  background: #fff;
+}
+
+.skill4 {
+  margin: 4%;
+  border: 1px solid #8993a4;
+  width: 4em;
+  background: #fff;
+}
+
+.card-button {
+  float: left;
+  width: 29%;
+  margin: 2% 4%;
+  height: 3em;
+  background: #ff6b00;
+  border: #ff6b00;
+}
+
+.btn-cards {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  height: 4em;
+  color: #fff;
+}
+
+.card-background-image {
+  background-image: url("../assets/images/Img_Placeholder2.png");
+  height: 24em;
+  width: 92%;
+  margin: 8% 4%;
+}
+
+.card-headline {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 44px;
+  color: #fff;
+  text-align: left;
+  margin-left: 6%;
+  padding-top: 40%;
+  font-family: Round;
+}
+
+.card-headline-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 78%;
+}
+
+.skillcard {
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  height: 37px;
+}
+
+#about-us {
+  background: #1c1a19;
+  height: 251vh;
+  position: relative;
+}
+
+.about-me {
+  width: 100%;
+  padding-top: 25%;
+}
+
+.about-us-header {
+  color: #ff6b00;
+  font-family: Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.about-us-text {
+  color: #f4f5f7;
+  width: 92%;
+  margin-left: 6%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 7%;
+}
+
+.btn-about {
+  margin-left: 6%;
+  width: 44%;
+  height: 3%;
+  margin-top: 5%;
+  background: #ff6b00;
+  border: #ff6b00;
+  color: #fff;
+}
+
+.group3 {
+  background-image: url("../assets/images/group3.svg");
+  position: absolute;
+  width: 10em;
+  height: 16em;
+  left: 55%;
+  top: 18%;
+}
+.about-us-border {
+  position: absolute;
+  border: 1px solid #fff;
+  width: 92%;
+  top: 33%;
+  left: 4%;
+}
+
+.about-skill {
+  padding-top: 73%;
+  text-align: center;
+  padding-bottom: 40%;
+}
+
+.language {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+}
+
+.margin-top-10 {
+  margin-top: 10%;
+}
+
+.language-items {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  /* font-weight: normal; */
+  font-size: 20px;
+  line-height: 43px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin: 2% 0;
+}
+
+.margin-05 {
+  margin: 0 5%;
+}

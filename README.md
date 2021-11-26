@@ -1,14 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Setup and mobile version skeleton
+# mobile version project
 
->This project based on my portfolio. Portfolio project built with html and css.
->It is a responsive project which contains mobile version.
+> This project based on my portfolio. Portfolio project built with html and css.
+> It is a responsive project which contains mobile version.
+> It also contains about-us section
 
-## Mobile version output 
+## Mobile version output
 
-![Screenshot (30)](https://user-images.githubusercontent.com/61976324/143286863-79753c26-27a1-4aee-9e12-dc43577ad99d.png)
-
+![Screenshot (33)](https://user-images.githubusercontent.com/61976324/143509431-90dd75b9-2a55-40c7-9da4-3df66314bbc1.png)
 
 Additional description about the project and its features.
 
