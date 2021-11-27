@@ -1,67 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/my_portfolio.css" />
-  </head>
-  <body>
-    <header id="header" class="header">
-      <div class="logo"><a href="#" class="logo-link">John Doe</a></div>
-      <nav id="navbar" class="navbar">
-        <div class="burger">
-          <img src="assets/images/burger.png" alt="" class="d-none-lg" />
-        </div>
-        <ul class="d-none nav-list d-flex-lg list-style-none">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href=".about-us" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link"
-              ><img src="assets/images/message-box.png" alt=""
-            /></a>
-          </li>
-        </ul>
-      </nav>
-    </header>
 
-    <section class="my-self">
-      <div class="myself-header">
-        <h1 class="my-name">Hey There. I’m OyelakinG</h1>
-        <h4 class="my-work">I’am a Software Developer</h4>
-        <p class="my-text">
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/my_portfolio.css" />
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="logo"><a href="#" class="logo-link">John Doe</a></div>
+    <nav id="navbar" class="navbar">
+      <div class="burger">
+        <img src="assets/images/burger.png" alt="" class="d-none-lg" />
+      </div>
+      <ul class="d-none nav-list d-flex-lg list-style-none">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href=".about-us" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"><img src="assets/images/message-box.png" alt="" /></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="my-self">
+    <div class="myself-header">
+      <h1 class="my-name">Hey There. I’m OyelakinG</h1>
+      <h4 class="my-work">I’am a Software Developer</h4>
+      <p class="my-text">
+        I can help you build a product , feature or website Look through some
+        of my work and experience! If you like what you see and have a project
+        you need coded, don’t hestiate to contact me.
+      </p>
+    </div>
+    <div class="media-icons">
+      <ul class="list-style-none d-flex d-block-lg">
+        <li class="github"><img src="assets/images/github.png" alt="" /></li>
+        <li class="linkedin margin-left-5 margin-top-lg">
+          <img src="assets/images/linked_in.png" alt="" />
+        </li>
+        <li class="sure margin-left-5 margin-top-lg">
+          <img src="assets/images/sure.png" alt="" />
+        </li>
+        <li class="twitter margin-left-5 margin-top-lg">
+          <img src="assets/images/twitter.png" alt="" />
+        </li>
+        <li class="mozilla margin-left-5 margin-top-lg">
+          <img src="assets/images/Vector.png" alt="" />
+        </li>
+      </ul>
+    </div>
+    <div class="group1 pos-absolute d-none-lg"></div>
+    <!-- <div class="group2 pos-absolute d-none d-block-lg"></div> -->
+  </section>
+
+  <!-- work section -->
+  <section id="work-section" class="work-section">
+    <article class="card-work">
+      <div class="card-header">
+        <h1 class="card-header-name">My Recent Works</h1>
+        <div class="card-header-border"></div>
+      </div>
+      <div class="cards">
+        <div class="card-img"><img src="assets/images/Img_Placeholder1.png" alt="fantastic-card-image" width="290">
+        </div>
+        <div class="card-name">
+          <h2>Multi-Post Stories</h2>
+        </div>
+        <div class="card-text">
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+        </div>
+      </div>
+      <div class="card-skills">
+        <ul class="skills d-flex list-style-none">
+          <li class="skill1">css</li>
+          <li class="skill2">html</li>
+          <li class="skill3">bootstrap</li>
+          <li class="skill4">Ruby</li>
+        </ul>
+        <button class="card-button">See Project</button>
+      </div>
+    </article>
+    <article class="card-work">
+      <div class="cards card-background-image">
+        <div class="card-name">
+          <h2 class="card-headline">Profesional Art Printing Data</h2>
+        </div>
+        <div class="card-text">
+          <p class="card-headline-text">A daily selection of privately personalized reads; no accounts or sign-ups
+            required. has been the industry's standard</p>
+        </div>
+        <div class="card-skills">
+          <ul class="skills d-flex list-style-none">
+            <li class="skill2 skillcard">html</li>
+            <li class="skill3 skillcard">bootstrap</li>
+            <li class="skill4 skillcard">Ruby</li>
+          </ul>
+          <button class="card-button btn-cards">See Project</button>
+        </div>
+      </div>
+    </article>
+    <article class="card-work">
+      <div class="cards card-background-image">
+        <div class="card-name">
+          <h2 class="card-headline">Profesional Art Printing Data</h2>
+        </div>
+        <div class="card-text">
+          <p class="card-headline-text">A daily selection of privately personalized reads; no accounts or sign-ups
+            required. has been the industry's standard</p>
+        </div>
+        <div class="card-skills">
+          <ul class="skills d-flex list-style-none">
+            <li class="skill2 skillcard">html</li>
+            <li class="skill3 skillcard">bootstrap</li>
+            <li class="skill4 skillcard">Ruby</li>
+          </ul>
+          <button class="card-button btn-cards">See Project</button>
+        </div>
+      </div>
+    </article>
+    <article class="card-work">
+      <div class="cards card-background-image">
+        <div class="card-name">
+          <h2 class="card-headline">Profesional Art Printing Data</h2>
+        </div>
+        <div class="card-text">
+          <p class="card-headline-text">A daily selection of privately personalized reads; no accounts or sign-ups
+            required. has been the industry's standard</p>
+        </div>
+        <div class="card-skills">
+          <ul class="skills d-flex list-style-none">
+            <li class="skill2 skillcard">html</li>
+            <li class="skill3 skillcard">bootstrap</li>
+            <li class="skill4 skillcard">Ruby</li>
+          </ul>
+          <button class="card-button btn-cards">See Project</button>
+        </div>
+      </div>
+    </article>
+    <article class="card-work">
+      <div class="cards card-background-image">
+        <div class="card-name">
+          <h2 class="card-headline">Profesional Art Printing Data</h2>
+        </div>
+        <div class="card-text">
+          <p class="card-headline-text">A daily selection of privately personalized reads; no accounts or sign-ups
+            required. has been the industry's standard</p>
+        </div>
+        <div class="card-skills">
+          <ul class="skills d-flex list-style-none">
+            <li class="skill2 skillcard">html</li>
+            <li class="skill3 skillcard">bootstrap</li>
+            <li class="skill4 skillcard">Ruby</li>
+          </ul>
+          <button class="card-button btn-cards">See Project</button>
+        </div>
+      </div>
+    </article>
+    <article class="card-work">
+      <div class="cards card-background-image">
+        <div class="card-name">
+          <h2 class="card-headline">Profesional Art Printing Data</h2>
+        </div>
+        <div class="card-text">
+          <p class="card-headline-text">A daily selection of privately personalized reads; no accounts or sign-ups
+            required. has been the industry's standard</p>
+        </div>
+        <div class="card-skills">
+          <ul class="skills d-flex list-style-none">
+            <li class="skill2 skillcard">html</li>
+            <li class="skill3 skillcard">bootstrap</li>
+            <li class="skill4 skillcard">Ruby</li>
+          </ul>
+          <button class="card-button btn-cards">See Project</button>
+        </div>
+      </div>
+    </article>
+    <article class="card-work">
+      <div class="cards card-background-image">
+        <div class="card-name">
+          <h2 class="card-headline">Profesional Art Printing Data</h2>
+        </div>
+        <div class="card-text">
+          <p class="card-headline-text">A daily selection of privately personalized reads; no accounts or sign-ups
+            required. has been the industry's standard</p>
+        </div>
+        <div class="card-skills">
+          <ul class="skills d-flex list-style-none">
+            <li class="skill2 skillcard">html</li>
+            <li class="skill3 skillcard">bootstrap</li>
+            <li class="skill4 skillcard">Ruby</li>
+          </ul>
+          <button class="card-button btn-cards">See Project</button>
+        </div>
+      </div>
+    </article>
+  </section>
+  <!-- About-us section -->
+  <section id="about-us" class="about-us">
+    <div class="about-me">
+      <div class="about-us-header">
+        <h1>About me</h1>
+      </div>
+      <div class="about-us-text">
+        <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
+          work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
         </p>
       </div>
-      <div class="media-icons">
-        <ul class="list-style-none d-flex d-block-lg">
-          <li class="github"><img src="assets/images/github.png" alt="" /></li>
-          <li class="linkedin margin-left-5 margin-top-lg">
-            <img src="assets/images/linked_in.png" alt="" />
-          </li>
-          <li class="sure margin-left-5 margin-top-lg">
-            <img src="assets/images/sure.png" alt="" />
-          </li>
-          <li class="twitter margin-left-5 margin-top-lg">
-            <img src="assets/images/twitter.png" alt="" />
-          </li>
-          <li class="mozilla margin-left-5 margin-top-lg">
-            <img src="assets/images/Vector.png" alt="" />
-          </li>
-        </ul>
-      </div>
-      <div class="group1 pos-absolute d-none-lg"></div>
-      <!-- <div class="group2 pos-absolute d-none d-block-lg"></div> -->
-    </section>
-  </body>
+    </div>
+    <button class="btn-about">Get My Resume</button>
+    <div class="group3"></div>
+    <div class="about-us-border"></div>
+    <div class="ellipse1"></div>
+    <div class="about-skill">
+      <ul class="about-skill-item">
+        <li class="about-skill-items">
+          <p class="skill-language">
+            <i><img src="assets/images/Rectangle2.svg" alt="" width="17"></i>
+            <strong class="language">Language</strong>
+          </p>
+          <ul class="margin-top-10">
+            <li class="language-items">Javascript</li>
+            <li class="language-items">Ruby</li>
+            <li class="language-items">Html</li>
+            <li class="language-items">Css</li>
+          </ul>
+        </li>
+        <li class="about-skill-items">
+          <p class="skill-language">
+            <i><img src="assets/images/Rectangle3.svg" alt="" width="17"></i>
+            <strong class="language  margin-05">Frameworks</strong>
+          </p>
+          <ul class="margin-top-10">
+            <li class="language-items">Bootstrap</li>
+            <li class="language-items">Ruby on Rails</li>
+            <li class="language-items">RSPec</li>
+            <li class="language-items">CapyBara</li>
+            <li class="language-items">Selenium</li>
+          </ul>
+        </li>
+        <li class="about-skill-items">
+          <p class="skill-language">
+            <i><img src="assets/images/Rectangle1.svg" alt="" width="17"></i>
+            <strong class="language">Skills</strong>
+          </p>
+          <ul class="margin-top-10">
+            <li class="language-items">Codekit</li>
+            <li class="language-items">Github</li>
+            <li class="language-items">Codepen</li>
+            <li class="language-items">Gitlab</li>
+            <li class="language-items">Terminal</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>
+
 </html>

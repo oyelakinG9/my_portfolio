@@ -99,3 +99,256 @@ header {
   top: 23em;
   left: 60%;
 }
+
+#work-section {
+  display: grid;
+  text-align: center;
+}
+
+.card-work {
+  margin-top: 26%;
+}
+
+.card-header-name {
+  font-size: 2rem;
+  color: #1c1a19;
+}
+
+.card-header-border {
+  width: 80%;
+  border: 1px solid #212121;
+  margin: 9%;
+}
+
+.cards {
+  margin-top: 17%;
+}
+
+.card-name {
+  margin-right: 27%;
+}
+
+.card-text {
+  text-align: left;
+  margin-left: 4%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 95%;
+}
+
+.skills {
+  width: 95%;
+}
+
+.skill1 {
+  margin: 4% 1% 4% 4%;
+  border: 1px solid #8993a4;
+  width: 4em;
+  background: #fff;
+}
+
+.skill2 {
+  margin: 4% 1%;
+  border: 1px solid #8993a4;
+  width: 4em;
+  background: #fff;
+}
+
+.skill3 {
+  margin: 4% 1% 4%;
+  border: 1px solid #8993a4;
+  width: 8em;
+  background: #fff;
+}
+
+.skill4 {
+  margin: 4% 1% 4% 1%;
+  border: 1px solid #8993a4;
+  width: 4em;
+  background: #fff;
+}
+
+.card-button {
+  float: left;
+  width: 29%;
+  margin: 2% 4%;
+  height: 3em;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  background: #ff6b00;
+  border: #ff6b00;
+  text-align: center;
+  color: #fff;
+}
+
+button:hover {
+  background: #f4f1f0;
+  border: 1px solid #f55800;
+  color: #e05304;
+}
+
+button:active {
+  background: #e05304;
+  border: 1px solid #f55800;
+  color: #f4f1f0;
+}
+
+.btn-cards {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  height: 4.1em;
+  color: #fff;
+}
+
+.card-background-image {
+  background-image: url("../assets/images/Img_Placeholder2.png");
+  height: 24em;
+  width: 92%;
+  margin: 8% 4%;
+}
+
+.card-headline {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  text-align: left;
+  margin-left: 6%;
+  padding-top: 40%;
+  font-family: "Crete Round", sans-serif;
+  width: 105%;
+}
+
+.card-headline-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 90%;
+}
+
+.skillcard {
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 35px;
+  height: 37px;
+  text-align: center;
+}
+
+#about-us {
+  background: #1c1a19;
+  height: 300vh;
+  position: relative;
+  margin-top: 30%;
+}
+
+.about-me {
+  width: 100%;
+  padding-top: 25%;
+}
+
+.about-us-header {
+  color: #ff6b00;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.about-us-text {
+  color: #f4f5f7;
+  width: 92%;
+  margin-left: 6%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 7%;
+}
+
+.btn-about {
+  margin-left: 6%;
+  width: 44%;
+  height: 3%;
+  margin-top: 5%;
+  background: #ff6b00;
+  border: #ff6b00;
+  color: #fff;
+}
+
+.group3 {
+  background-image: url("../assets/images/group3.svg");
+  position: absolute;
+  width: 10em;
+  height: 16em;
+  left: 50%;
+  top: 18%;
+}
+
+.about-us-border {
+  position: absolute;
+  border: 1px solid #fff;
+  width: 92%;
+  top: 33%;
+  left: 4%;
+}
+
+.ellipse1 {
+  background-image: url("../assets/images/Ellipse1.svg");
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  left: 60%;
+  top: 31%;
+}
+
+.about-skill {
+  padding-top: 90%;
+  text-align: center;
+  padding-bottom: 35%;
+}
+
+.language {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+}
+
+.margin-top-10 {
+  margin-top: 10%;
+}
+
+.language-items {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 43px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin: 2% 0;
+}
+
+.margin-05 {
+  margin: 0 5%;
+}
