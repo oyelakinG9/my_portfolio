@@ -250,7 +250,7 @@ button:active {
 
 #about-us {
   background: #1c1a19;
-  height: 300vh;
+  /* height: 300vh; */
   position: relative;
   margin-top: 30%;
 }
@@ -285,7 +285,7 @@ button:active {
 .btn-about {
   margin-left: 6%;
   width: 44%;
-  height: 3%;
+  height: 4em;
   margin-top: 5%;
   background: #ff6b00;
   border: #ff6b00;
@@ -315,7 +315,7 @@ button:active {
   width: 18px;
   height: 19px;
   left: 60%;
-  top: 31%;
+  top: 29.8%;
 }
 
 .about-skill {
@@ -352,3 +352,86 @@ button:active {
 .margin-05 {
   margin: 0 5%;
 }
+
+#contact-us {
+  height: 100vh;
+  padding-top: 30%;
+  text-align: center;
+}
+
+.contact-us-text {
+  width: 100%;
+  text-align: center;
+  padding: 0 7%;
+}
+
+.contact-us-paragraph {
+  text-align: center;
+  color: #172b4d;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 40px;
+}
+
+.form {
+  text-align: center;
+  padding: 8%;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.form-control input {
+  border: 0 solid #979493;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  background: #e5e5e5;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form-control textarea {
+  padding: 10px;
+  border: 0 solid #979493;
+  background: #fbf8f7;
+  color: #3c3a39;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.input-line {
+  border: 1px solid #dbd8d7;
+  margin: 6% 0%;
+  width: 100%;
+}
+
+.btn-get {
+  width: 140px;
+  height: 48px;
+  margin-left: 2px;
+  background: #ff6b00;
+  border: 1px solid #ff6b00;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.btn-get:active {
+  background: #e05304;
+  border: 1px solid #f55800;
+  color: #f4f1f0;
+} 
