@@ -175,7 +175,7 @@ header {
   width: 29%;
   margin: 2% 4%;
   height: 3em;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -273,7 +273,7 @@ button:active {
   color: #f4f5f7;
   width: 92%;
   margin-left: 6%;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -325,7 +325,7 @@ button:active {
 
 .language {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -367,7 +367,7 @@ button:active {
 .contact-us-paragraph {
   text-align: center;
   color: #172b4d;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
@@ -390,7 +390,7 @@ button:active {
   padding: 10px;
   width: 100%;
   background: #e5e5e5;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
@@ -401,7 +401,7 @@ button:active {
   border: 0 solid #979493;
   background: #fbf8f7;
   color: #3c3a39;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   line-height: 24px;
 }
@@ -418,7 +418,7 @@ button:active {
   margin-left: 2px;
   background: #ff6b00;
   border: 1px solid #ff6b00;
-  font-family: "Inter";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
