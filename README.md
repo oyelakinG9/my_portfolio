@@ -4,11 +4,11 @@
 
 > This project based on my portfolio. Portfolio project built with html and css.
 > It is a responsive project which contains mobile version.
-> It also contains about-us section
+> It also contains contact-form section
 
 ## Mobile version output
 
-![Screenshot (33)](https://user-images.githubusercontent.com/61976324/143509431-90dd75b9-2a55-40c7-9da4-3df66314bbc1.png)
+![Screenshot (41)](https://user-images.githubusercontent.com/61976324/143902667-87fd472c-1c30-4b64-b280-51df450f8651.png)
 
 Additional description about the project and its features.
 
