@@ -305,17 +305,17 @@
         </div>
        <form action="https://formspree.io/f/xlezrplk" method="post" id="form" class="form">
         <div class="form-control">
-          <input type="text" placeholder="Full name" id="username" maxlength="30" />
+          <input type="text" placeholder="Full name" id="username" name="name" maxlength="30" required/>
           <div class="input-line"></div>
         </div>
   
         <div class="form-control">
-          <input type="email" placeholder="Email address" id="email" />
+          <input type="email" placeholder="Email address" name="email" id="email" required/>
           <div class="input-line"></div>
         </div>
   
         <div class="form-control">
-          <textarea placeholder="Enter text here" id="message" maxlength="500"></textarea>
+          <textarea placeholder="Enter text here" id="message" name="message" maxlength="500" required></textarea>
         </div>
         <button type="submit" class="btn-get">Get It Touch</button>
       </form>

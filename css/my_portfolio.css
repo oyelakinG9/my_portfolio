@@ -404,6 +404,7 @@ button:active {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 24px;
+  width: 100%;
 }
 
 .input-line {
