@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@700&family=Poppins:wght@300&family=Roboto:wght@700&family=Varela+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@700&family=Poppins:wght@300&family=Roboto:wght@700&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@700&family=Poppins:wght@300&family=Roboto:wght@700&family=Varela+Round&display=swap');
 
 * {
@@ -85,7 +85,7 @@ header {
 
 .my-work {
   color: #fff5e1;
-  font-family: "Roboto", "sans-serif";
+  font-family: 'Roboto', 'sans-serif';
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
@@ -94,7 +94,7 @@ header {
 .my-text {
   color: #fff;
   margin: 5% 0;
-  font-family: "Inter", "sans-serif";
+  font-family: 'Inter', 'sans-serif';
   line-height: 24px;
 }
 
@@ -342,7 +342,7 @@ button:active {
 }
 
 .language-items {
-  font-family: "Inter", "sans-serif";
+  font-family: 'Inter', 'sans-serif';
   font-size: 20px;
   line-height: 43px;
   align-items: center;
@@ -370,7 +370,7 @@ button:active {
 .contact-us-paragraph {
   text-align: center;
   color: #172b4d;
-  font-family: "Inter", "sans-serif";
+  font-family: 'Inter', 'sans-serif';
   font-weight: bold;
   font-size: 27px;
   line-height: 40px;
@@ -514,11 +514,12 @@ button:active {
     color: #fff;
     text-decoration: none;
     margin-right: 2em;
-    font-family: "Inter", "sans-serif";
+    font-family: 'Inter', 'sans-serif';
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
   }
+
   .my-self {
     background: #1c1a19;
     padding: 20% 5%;
@@ -562,7 +563,7 @@ button:active {
   }
 
   .my-work {
-    color: #ffffff;
+    color: #fff;
     font-family: "Inter", "sans-serif";
     font-weight: 500;
     font-size: 32px;
@@ -601,11 +602,12 @@ button:active {
 
   .card-text {
     text-align: left;
-    font-family: "Inter", "sans-serif";
+    font-family: 'Inter', 'sans-serif';
     font-size: 20px;
     line-height: 28px;
     color: #091e42;
   }
+
   .story {
     width: 33%;
   }
@@ -742,7 +744,7 @@ button:active {
 
   .about-us-header {
     color: #f55800;
-    font-family: "Crete Round", "sans-serif";
+    font-family: 'Crete Round', 'sans-serif';
     font-size: 72px;
     line-height: 81px;
     text-align: center;
@@ -753,7 +755,7 @@ button:active {
     color: #f4f5f7;
     width: 39%;
     margin-left: 6%;
-    font-family: "Inter", "sans-serif";
+    font-family: 'Inter', 'sans-serif';
     font-size: 20px;
     line-height: 32px;
     padding-top: 7%;
@@ -806,7 +808,7 @@ button:active {
   .contact-us-paragraph {
     text-align: left;
     color: #172b4d;
-    font-family: "Inter", "sans-serif";
+    font-family: 'Inter', 'sans-serif';
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
@@ -836,7 +838,7 @@ button:active {
     padding: 10px;
     width: 100%;
     background: #e5e5e5;
-    font-family: "Inter", "sans-serif";
+    font-family: 'Inter', 'sans-serif';
     font-size: 15px;
     line-height: 24px;
   }
@@ -846,7 +848,7 @@ button:active {
     border: 0 solid #979493;
     background: #fbf8f7;
     color: #3c3a39;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', 'sans-serif';
     font-size: 15px;
     line-height: 24px;
     width: 100%;
@@ -864,7 +866,7 @@ button:active {
     margin-left: 2px;
     background: #ff6b00;
     border: 1px solid #ff6b00;
-    font-family: "Inter", "sans-serif";
+    font-family: 'Inter', 'sans-serif';
     font-weight: bold;
     font-size: 17px;
     line-height: 24px;
