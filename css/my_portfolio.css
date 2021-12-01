@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Poppins",'Crete Round','Roboto','Inter', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", 'Crete Round', 'Roboto', 'Inter', Arial, Helvetica, sans-serif;
   background: #e5e5e5;
 }
 
@@ -583,7 +583,6 @@ button:active {
   }
 
   .card-header-name {
-    font-size: 2rem;
     color: #091e42;
     font-family: 'Crete Round', 'sans-serif';
     font-size: 40px;
