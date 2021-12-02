@@ -7,7 +7,8 @@
 }
 
 body {
-  font-family: "Poppins", 'Crete Round', 'Roboto', 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", "Crete Round", "Roboto", "Inter", Arial, Helvetica,
+    sans-serif;
   background: #e5e5e5;
 }
 
@@ -65,7 +66,7 @@ header {
 
 .my-self {
   background: #1c1a19;
-  padding: 30% 5%;
+  padding: 15% 5%;
   height: 100vh;
 }
 
@@ -83,7 +84,7 @@ header {
 
 .my-work {
   color: #fff5e1;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
@@ -92,7 +93,7 @@ header {
 .my-text {
   color: #fff;
   margin: 5% 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 24px;
 }
 
@@ -100,7 +101,7 @@ header {
   background-image: url("../assets/images/group1.svg");
   width: 8em;
   height: 17em;
-  top: 23em;
+  top: 20.8em;
   left: 60%;
 }
 
@@ -344,7 +345,7 @@ button:active {
 }
 
 .language-items {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   line-height: 43px;
   align-items: center;
@@ -372,7 +373,7 @@ button:active {
 .contact-us-paragraph {
   text-align: center;
   color: #262626;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 27px;
   line-height: 40px;
@@ -516,7 +517,7 @@ button:active {
     color: #fff;
     text-decoration: none;
     margin-right: 2em;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -529,31 +530,33 @@ button:active {
   }
 
   .myself-header {
-    width: 40%;
+    width: 50%;
     position: absolute;
-    left: 11%;
+    left: 9%;
     top: 44%;
   }
 
   .my-name {
     font-family: "Crete Round", sans-serif;
-    color: #ff6b00;
+    color: #f55800;
+    font-style: normal;
     font-weight: normal;
-    font-size: 56px;
-    line-height: 64px;
+    font-size: 72px;
+    line-height: 81px;
   }
 
   .group2 {
     background-image: url("../assets/images/group2.svg");
     width: 41em;
     height: 47em;
-    left: 38%;
-    top: 0.6em;
+    left: 35.8%;
+    top: 9%;
   }
 
   .media-icons {
     position: absolute;
     top: 52%;
+    left: 3%;
   }
 
   .margin-top-lg {
@@ -561,7 +564,13 @@ button:active {
   }
 
   .my-text {
-    width: 80%;
+    width: 71%;
+    color: #f4f5f7;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
   }
 
   .my-work {
@@ -588,7 +597,7 @@ button:active {
 
   .card-header-name {
     color: #091e42;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-size: 40px;
     line-height: 52px;
     align-items: center;
@@ -603,7 +612,7 @@ button:active {
 
   .card-text {
     text-align: left;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     line-height: 28px;
     color: #091e42;
@@ -737,7 +746,7 @@ button:active {
     position: absolute;
     width: 36.8em;
     height: 22em;
-    left: 44%;
+    left: 42%;
     top: 18%;
   }
 
@@ -747,18 +756,23 @@ button:active {
 
   .about-us-header {
     color: #f55800;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 72px;
     line-height: 81px;
-    text-align: center;
+    text-align: left;
     width: 57%;
+    margin-left: 6%;
   }
 
   .about-us-text {
     color: #f4f5f7;
     width: 34%;
     margin-left: 6%;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 20px;
     line-height: 32px;
     padding-top: 7%;
@@ -778,7 +792,7 @@ button:active {
     position: absolute;
     border: 1px solid #fff;
     width: 92%;
-    top: 47%;
+    top: 52%;
     left: 4%;
   }
 
@@ -811,7 +825,7 @@ button:active {
   .contact-us-paragraph {
     text-align: left;
     color: #172b4d;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
@@ -839,7 +853,7 @@ button:active {
     padding: 10px;
     width: 100%;
     background: #e5e5e5;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 15px;
     line-height: 24px;
   }
@@ -849,7 +863,7 @@ button:active {
     border: 0 solid #979493;
     background: #fbf8f7;
     color: #3c3a39;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 15px;
     line-height: 24px;
     width: 100%;
@@ -867,7 +881,7 @@ button:active {
     margin-left: 2px;
     background: #ff6b00;
     border: 1px solid #ff6b00;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 17px;
     line-height: 24px;
