@@ -3,12 +3,18 @@
 # mobile version project
 
 > This project based on my portfolio. Portfolio project built with html and css.
-> It is a responsive project which contains mobile version.
-> It also contains contact-form section
+> It is a responsive project which contains both mobile version and desktop version.
+> It contains header, card section, about section and contact section for both mobile and desktop version.
 
 ## Mobile version output
 
-![Screenshot (41)](https://user-images.githubusercontent.com/61976324/143902667-87fd472c-1c30-4b64-b280-51df450f8651.png)
+![Screenshot (46)](https://user-images.githubusercontent.com/61976324/144284339-5d186606-bc75-4238-94b7-c643a683f0d2.png)
+
+![Screenshot (47)](https://user-images.githubusercontent.com/61976324/144284263-85199ad5-2507-4b5e-9502-c758d9bdfae9.png)
+
+![Screenshot (48)](https://user-images.githubusercontent.com/61976324/144284015-01fe5024-093e-4c4a-8f3a-b252969516ff.png)
+
+![Screenshot (49)](https://user-images.githubusercontent.com/61976324/144283871-91b37499-5729-41d6-a820-3f82c2bad838.png)
 
 Additional description about the project and its features.
 
