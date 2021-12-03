@@ -69,6 +69,16 @@ header {
   height: 100vh;
 }
 
+@keyframes ease-in-out {
+  from {
+    margin-top: 60%;
+  }
+
+  to {
+    margin-top: 5%;
+  }
+}
+
 .myself-header {
   width: 95%;
 }
@@ -79,6 +89,8 @@ header {
   font-size: 37px;
   width: 91%;
   line-height: 64px;
+  animation-duration: 3s;
+  animation-name: ease-in-out;
 }
 
 .my-work {
@@ -87,6 +99,8 @@ header {
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
+  animation-duration: 3s;
+  animation-name: ease-in-out;
 }
 
 .my-text {
@@ -94,6 +108,18 @@ header {
   margin: 5% 0;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0;
+  }
 }
 
 .group1 {
@@ -107,6 +133,8 @@ header {
 #work-section {
   display: grid;
   text-align: center;
+  animation-name: ease-in-out;
+  animation-duration: 3s;
 }
 
 .card-work {
@@ -204,6 +232,8 @@ button:active {
   background: #e05304;
   border: 1px solid #f55800;
   color: #f4f1f0;
+  animation-duration: 3s;
+  animation-name: ease-in-out;
 }
 
 .btn-cards {
@@ -212,6 +242,8 @@ button:active {
   margin-left: 0;
   height: 4.1em;
   color: #fff;
+  animation-duration: 3s;
+  animation-name: ease-in-out;
 }
 
 .card-background-image {
@@ -230,6 +262,11 @@ button:active {
   padding-top: 40%;
   font-family: "Crete Round", sans-serif;
   width: 108%;
+}
+
+.card-headline:active {
+  animation-duration: 3s;
+  animation-name: ease-in-out;
 }
 
 .card-headline-text {
@@ -456,6 +493,12 @@ button:active {
   margin-left: 4em;
 }
 
+.transformation {
+  width: 80px;
+  height: 80px;
+  background-color: skyblue;
+}
+
 @media screen and (min-width: 992px) {
   .list-style-none {
     list-style: none;
@@ -552,10 +595,22 @@ button:active {
     top: 9%;
   }
 
+  @keyframes ease-in-out {
+    from {
+      margin-top: 60%;
+    }
+
+    to {
+      margin-top: 5%;
+    }
+  }
+
   .media-icons {
     position: absolute;
     top: 52%;
     left: 3%;
+    animation-name: ease-in-out;
+    animation-duration: 2s;
   }
 
   .margin-top-lg {
