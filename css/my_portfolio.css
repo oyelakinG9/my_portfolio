@@ -75,7 +75,7 @@ header {
   }
 
   to {
-    margin-top: 5%;
+    margin-top: 0%;
   }
 }
 
@@ -133,8 +133,6 @@ header {
 #work-section {
   display: grid;
   text-align: center;
-  animation-name: ease-in-out;
-  animation-duration: 3s;
 }
 
 .card-work {
@@ -232,8 +230,6 @@ button:active {
   background: #e05304;
   border: 1px solid #f55800;
   color: #f4f1f0;
-  animation-duration: 3s;
-  animation-name: ease-in-out;
 }
 
 .btn-cards {
@@ -242,8 +238,6 @@ button:active {
   margin-left: 0;
   height: 4.1em;
   color: #fff;
-  animation-duration: 3s;
-  animation-name: ease-in-out;
 }
 
 .card-background-image {
@@ -262,11 +256,6 @@ button:active {
   padding-top: 40%;
   font-family: "Crete Round", sans-serif;
   width: 108%;
-}
-
-.card-headline:active {
-  animation-duration: 3s;
-  animation-name: ease-in-out;
 }
 
 .card-headline-text {
@@ -493,12 +482,6 @@ button:active {
   margin-left: 4em;
 }
 
-.transformation {
-  width: 80px;
-  height: 80px;
-  background-color: skyblue;
-}
-
 @media screen and (min-width: 992px) {
   .list-style-none {
     list-style: none;
@@ -610,7 +593,7 @@ button:active {
     top: 52%;
     left: 3%;
     animation-name: ease-in-out;
-    animation-duration: 2s;
+    animation-duration: 3s;
   }
 
   .margin-top-lg {
