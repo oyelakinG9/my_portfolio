@@ -18,6 +18,9 @@
 
 Additional description about the project and its features.
 
+## Live Link
+[Live Demo](https://oyelaking9.github.io/my_portfolio/)
+
 ## Built With
 
 - Major languages: html and css
