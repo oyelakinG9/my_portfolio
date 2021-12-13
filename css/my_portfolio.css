@@ -164,7 +164,7 @@ header {
   padding: 3px 0px;
 }
 
-/* .nav-link::before,
+.nav-link::before,
 .nav-link::after {
   content: "";
   width: 100%;
@@ -189,7 +189,7 @@ header {
 .nav-link:hover::before,
 .nav-link:hover::after {
   transform: scaleX(1);
-} */
+}
 
 .my-self {
   background: #1c1a19;
