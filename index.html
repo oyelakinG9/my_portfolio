@@ -7,27 +7,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>OyelakinG's portfolio</title>
   <link rel="stylesheet" href="css/my_portfolio.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <!-- <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script> -->
 </head>
 
 <body>
   <header id="header" class="header">
-    <div class="logo"><a href="#" class="logo-link">John Doe</a></div>
-      
+    <div class="logo"><a href="#" class="logo-link">OyelakinG Ridwan</a></div>
+
     <nav id="navbar" class="navbar">
-      <div class="burger">
-        <img src="assets/images/burger.png" alt="" class="d-none-lg" />
+      <div class="hamburger-menu d-none-lg">
+        <!-- <img src="assets/images/burger.png" alt="" class="d-none-lg" /> -->
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
       </div>
-      <ul class="nav-list list-style-none d-none d-flex-lg">
-        <li class="nav-item">
+      <ul class="nav-list d-flex-lg">
+        <li class="nav-item nav-link-border">
           <a href="#" class="nav-link">Portfolio</a>
         </li>
-        <li class="nav-item">
-          <a href="#about-us" class="nav-link">About</a>
+        <li class="nav-item nav-link-border">
+          <a href="#about-us" class="nav-link nav-link-about">About</a>
         </li>
-        <li class="nav-item">
-          <a href="#contact-us" class="nav-link">Contact</a>
+
+        <li class="nav-item nav-link-border">
+          <a href="#contact-us" class="nav-link nav-link-contact">Contact</a>
         </li>
-        <li class="nav-item">
+
+        <li class="nav-item d-none d-block-lg">
           <a href="#form" class="nav-link"><img src="assets/images/message-box.png" alt="fantastic-contact-form" /></a>
         </li>
       </ul>
@@ -36,7 +50,7 @@
 
   <section class="my-self">
     <div class="myself-header">
-      <h1 class="my-name">Hey There. I’m OyelakinG</h1>  
+      <h1 class="my-name">Hey There. I’m OyelakinG</h1>
       <h4 class="my-work">I’am a Software Developer</h4>
       <p class="my-text">
         I can help you build a product , feature or website Look through some
@@ -46,18 +60,18 @@
     </div>
     <div class="media-icons">
       <ul class="list-style-none d-flex d-block-lg">
-        <li class="github"><img src="assets/images/github.png" alt="github"/></li>
+        <li class="github"><img src="assets/images/github.png" alt="github" /></li>
         <li class="linkedin margin-left-5 margin-top-lg">
-          <img src="assets/images/linked_in.png" alt="linkedin"/>
+          <img src="assets/images/linked_in.png" alt="linkedin" />
         </li>
         <li class="sure margin-left-5 margin-top-lg">
-          <img src="assets/images/sure.png" alt="angelist"/>
+          <img src="assets/images/sure.png" alt="angelist" />
         </li>
         <li class="twitter margin-left-5 margin-top-lg">
-          <img src="assets/images/twitter.png" alt="twitter"/>
+          <img src="assets/images/twitter.png" alt="twitter" />
         </li>
         <li class="mozilla margin-left-5 margin-top-lg">
-          <img src="assets/images/Vector.png" alt="medium"/>
+          <img src="assets/images/Vector.png" alt="medium" />
         </li>
       </ul>
     </div>
@@ -308,18 +322,19 @@
             <div class="input-line"></div>
           </div>
           <div class="form-control d-none d-block-lg width-40-lg pos-absolute-lastname-lg">
-            <input type="text" placeholder="Last name" id="Lastname" name="name" maxlength="30"/>
+            <input type="text" placeholder="Last name" id="Lastname" name="name" maxlength="30" />
             <div class="input-line"></div>
           </div>
         </div>
 
         <div class="form-control">
-          <input type="email" placeholder="Email address" name="email" id="email" required/>
+           <input type="email" placeholder="Email address" name="email" id="email" required />
           <div class="input-line"></div>
         </div>
 
         <div class="form-control">
-          <textarea placeholder="Enter text here" id="message" name="message" maxlength="500" rows="7" required></textarea>
+          <textarea placeholder="Enter text here" id="message" name="message" maxlength="500" rows="7"
+            required></textarea>
         </div>
         <button type="submit" class="btn-get">Get It Touch</button>
       </form>
@@ -343,6 +358,7 @@
       </ul>
     </div>
   </section>
+  <script src="./js/my_portfolio.js"></script>
 </body>
 
 </html>
