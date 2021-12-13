@@ -82,7 +82,7 @@ header {
     filter: hue-rotate(360deg);
     text-shadow: none;
   }
-  0% {
+  0%  {
     filter: hue-rotate(0deg);
     text-shadow: 0 0 10px #f55800, 0 0 1px #f55800, 0 0 10px #f55800, 0 0 20px #f55800, 0 0 30px #f55800, 0 0 40px #f55800;
   }
