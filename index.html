@@ -5,30 +5,44 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OyelakinG_portfolio</title>
+  <title>OyelakinG's portfolio</title>
   <link rel="stylesheet" href="css/my_portfolio.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <!-- <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script> -->
 </head>
 
 <body>
   <header id="header" class="header">
-    <div class="logo"><a href="#" class="logo-link">John Doe</a></div>
-      
+    <div class="logo"><a href="#" class="logo-link">OyelakinG Ridwan</a></div>
+
     <nav id="navbar" class="navbar">
-      <div class="burger">
-        <img src="assets/images/burger.png" alt="" class="d-none-lg" />
+      <div class="hamburger-menu d-none-lg">
+        <!-- <img src="assets/images/burger.png" alt="" class="d-none-lg" /> -->
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
       </div>
-      <ul class="nav-list list-style-none d-none d-flex-lg">
-        <li class="nav-item">
+      <ul class="nav-list d-flex-lg">
+        <li class="nav-item nav-link-border">
           <a href="#" class="nav-link">Portfolio</a>
         </li>
-        <li class="nav-item">
-          <a href="#about-us" class="nav-link">About</a>
+        <li class="nav-item nav-link-border">
+          <a href="#about-us" class="nav-link nav-link-about">About</a>
         </li>
-        <li class="nav-item">
-          <a href="#contact-us" class="nav-link">Contact</a>
+
+        <li class="nav-item nav-link-border">
+          <a href="#contact-us" class="nav-link nav-link-contact">Contact</a>
         </li>
-        <li class="nav-item">
-          <a href="#form" class="nav-link"><img src="assets/images/message-box.png" alt="" /></a>
+
+        <li class="nav-item d-none d-block-lg">
+          <a href="#form" class="nav-link"><img src="assets/images/message-box.png" alt="fantastic-contact-form" /></a>
         </li>
       </ul>
     </nav>
@@ -36,7 +50,7 @@
 
   <section class="my-self">
     <div class="myself-header">
-      <h1 class="my-name">Hey There. I’m OyelakinG</h1>  
+      <h1 class="my-name">Hey There. I’m OyelakinG</h1>
       <h4 class="my-work">I’am a Software Developer</h4>
       <p class="my-text">
         I can help you build a product , feature or website Look through some
@@ -46,18 +60,18 @@
     </div>
     <div class="media-icons">
       <ul class="list-style-none d-flex d-block-lg">
-        <li class="github"><img src="assets/images/github.png" alt="" /></li>
+        <li class="github"><img src="assets/images/github.png" alt="github" /></li>
         <li class="linkedin margin-left-5 margin-top-lg">
-          <img src="assets/images/linked_in.png" alt="" />
+          <img src="assets/images/linked_in.png" alt="linkedin" />
         </li>
         <li class="sure margin-left-5 margin-top-lg">
-          <img src="assets/images/sure.png" alt="" />
+          <img src="assets/images/sure.png" alt="angelist" />
         </li>
         <li class="twitter margin-left-5 margin-top-lg">
-          <img src="assets/images/twitter.png" alt="" />
+          <img src="assets/images/twitter.png" alt="twitter" />
         </li>
         <li class="mozilla margin-left-5 margin-top-lg">
-          <img src="assets/images/Vector.png" alt="" />
+          <img src="assets/images/Vector.png" alt="medium" />
         </li>
       </ul>
     </div>
@@ -69,13 +83,13 @@
   <section id="work-section" class="work-section">
     <article class="card-work">
       <div class="card-header">
-        <h1 class="card-header-name">My Recent Works</h1>
+        <h2 class="card-header-name">My Recent Works</h2>
         <div class="card-header-border"></div>
       </div>
       <div class="cards d-flex-lg">
         <div class="card-img">
           <img src="assets/images/Img_Placeholder1.png" alt="fantastic-card-image" width="290" class="d-none-lg" />
-          <img src="assets/images/Img_Placeholder3.png" alt="" class="d-none d-block-lg width-93">
+          <img src="assets/images/Img_Placeholder3.png" alt="fantastic-card-image2" class="d-none d-block-lg width-93">
         </div>
         <div class="story">
           <div class="card-name">
@@ -126,7 +140,7 @@
       <div class="cards card-background-image card-background-image-lg2 pos-absolute-lg">
         <div class="card-name">
           <h2 class="card-headline d-none-lg">Profesional Art Printing Data</h2>
-          <h2 class="card-headline d-none d-block-lg">Data Dashboard Healthcare</h2>
+          <h2 class="card-headline d-none d-block-lg">Data DashboardHealthcare</h2>
         </div>
         <div class="card-text">
           <p class="card-headline-text">
@@ -191,7 +205,7 @@
       <div class="cards card-background-image card-background-image-lg5 pos-absolute-lg">
         <div class="card-name">
           <h2 class="card-headline d-none-lg">Profesional Art Printing Data</h2>
-          <h2 class="card-headline d-none d-block-lg">Data Dashboard Healthcare</h2>
+          <h2 class="card-headline d-none d-block-lg">Data DashboardHealthcare</h2>
         </div>
         <div class="card-text">
           <p class="card-headline-text">
@@ -236,7 +250,7 @@
   <section id="about-us" class="about-us">
     <div class="about-me">
       <div class="about-us-header">
-        <h1>About me</h1>
+        <h2>About me</h2>
       </div>
       <div class="about-us-text">
         <p>
@@ -255,7 +269,7 @@
       <ul class="about-skill-item d-flex-lg list-style-none">
         <li class="about-skill-items">
           <p class="skill-language">
-            <i><img src="assets/images/Rectangle2.svg" alt="" width="17" /></i>
+            <i><img src="assets/images/Rectangle2.svg" alt="Rectangle2" width="17" /></i>
             <strong class="language">Language</strong>
           </p>
           <ul class="margin-top-10">
@@ -267,7 +281,7 @@
         </li>
         <li class="about-skill-items">
           <p class="skill-language">
-            <i><img src="assets/images/Rectangle3.svg" alt="" width="17" /></i>
+            <i><img src="assets/images/Rectangle3.svg" alt="Rectangle3" width="17" /></i>
             <strong class="language margin-05">Frameworks</strong>
           </p>
           <ul class="margin-top-10 list-style-none">
@@ -280,7 +294,7 @@
         </li>
         <li class="about-skill-items">
           <p class="skill-language">
-            <i><img src="assets/images/Rectangle1.svg" alt="" width="17" /></i>
+            <i><img src="assets/images/Rectangle1.svg" alt="Rectangle1" width="17" /></i>
             <strong class="language margin-05">Skills</strong>
           </p>
           <ul class="margin-top-10 list-style-none">
@@ -308,18 +322,19 @@
             <div class="input-line"></div>
           </div>
           <div class="form-control d-none d-block-lg width-40-lg pos-absolute-lastname-lg">
-            <input type="text" placeholder="Last name" id="Lastname" name="name" maxlength="30"/>
+            <input type="text" placeholder="Last name" id="Lastname" name="name" maxlength="30" />
             <div class="input-line"></div>
           </div>
         </div>
 
         <div class="form-control">
-          <input type="email" placeholder="Email address" name="email" id="email" required/>
+           <input type="email" placeholder="Email address" name="email" id="email" required />
           <div class="input-line"></div>
         </div>
 
         <div class="form-control">
-          <textarea placeholder="Enter text here" id="message" name="message" maxlength="500" required></textarea>
+          <textarea placeholder="Enter text here" id="message" name="message" maxlength="500" rows="7"
+            required></textarea>
         </div>
         <button type="submit" class="btn-get">Get It Touch</button>
       </form>
@@ -327,22 +342,23 @@
     <div class="contact-border"></div>
     <div class="contact-media">
       <ul class="list-style-none d-flex">
-        <li class="github2"><img src="assets/images/github2.png" alt="" /></li>
+        <li class="github2"><img src="assets/images/github2.png" alt="github2" /></li>
         <li class="linkedin2 margin-left-1">
-          <img src="assets/images/linkedin2.png" alt="" />
+          <img src="assets/images/linkedin2.png" alt="linkedin2" />
         </li>
         <li class="sure2 margin-left-1">
-          <img src="assets/images/sure2.png" alt="" />
+          <img src="assets/images/sure2.png" alt="sure2" />
         </li>
         <li class="twitter2 margin-left-1">
-          <img src="assets/images/twitter2.png" alt="" />
+          <img src="assets/images/twitter2.png" alt="twitter2" />
         </li>
         <li class="mozilla2 margin-left-1">
-          <img src="assets/images/vector2.png" alt="" />
+          <img src="assets/images/vector2.png" alt="vector2" />
         </li>
       </ul>
     </div>
   </section>
+  <script src="./js/my_portfolio.js"></script>
 </body>
 
 </html>
