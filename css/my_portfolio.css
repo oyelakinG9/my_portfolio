@@ -161,7 +161,7 @@ header {
   font-size: 32px;
   line-height: 44px;
   position: relative;
-  padding: 3px 15px;
+  padding: 3px 0px;
 }
 
 .nav-link::before,
@@ -660,7 +660,7 @@ button:active {
     justify-content: space-between;
     width: 100%;
     background: #3c3a39;
-    padding: 2%;
+    padding: 4%;
     align-items: center;
     position: fixed;
     z-index: 1;
@@ -676,8 +676,8 @@ button:active {
 
   .navbar {
     z-index: 1;
-    width: 374px;
-    height: 100%;
+    width: 10%;
+    height: 90%;
     background-color: #6070ff;
     position: fixed;
     top: -126px;
@@ -691,8 +691,8 @@ button:active {
 
   .nav-list {
     position: absolute;
-    left: -120%;
-    top: 25%;
+    left: -600%;
+    top: 27%;
   }
 
   .nav-item {
@@ -704,7 +704,7 @@ button:active {
   .nav-link {
     color: #fff;
     text-decoration: none;
-    margin-right: 2em;
+    margin-right: 6em;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 15px;
