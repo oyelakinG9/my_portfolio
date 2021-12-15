@@ -82,6 +82,12 @@ function render() {
     cardName.appendChild(title);
 
     const desktopTitle = document.createElement('h2');
+    const cardText = document.createElement('div');
+    cardText.classList.add('card-text');
+    cardDiv.appendChild(cardText);
+    const cardDescription = document.createElement('p');
+    cardText.appendChild(cardDescription);
+    cardDescription.textContent = cardObject.shortDescription;
     
     if (cardObject.id === 1) {
       cardDiv.classList.add('d-flex-lg');
@@ -97,6 +103,7 @@ function render() {
       story.classList.add('story');
       story.appendChild(cardName);
       cardDiv.appendChild(story);
+
       
       title.classList.add('margin-right-23-lg');
       
@@ -108,12 +115,15 @@ function render() {
       desktopTitle.classList.add('card-headline', 'd-none', 'd-block-lg');
       desktopTitle.textContent = cardObject.titleDesktop;
       cardName.appendChild(desktopTitle);
+      cardDescription.classList.add('card-headline-text');
+      
     }
 
     if (cardObject.id === 2){
       cardName.classList.add('d-none-lg');
       title.classList.remove('d-none-lg');
       cardName.removeChild(desktopTitle);
+      cardText.classList.add('d-none-lg');
     }
 
 
