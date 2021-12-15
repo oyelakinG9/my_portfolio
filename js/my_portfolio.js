@@ -74,11 +74,48 @@ function render() {
     const cardDiv = document.createElement('div');
     cardDiv.classList.add('cards');
 
+    const cardName = document.createElement('div');
+    cardName.classList.add('card-name');
+
+    const title = document.createElement('h2');
+    title.textContent = cardObject.title;
+    cardName.appendChild(title);
+
+    const desktopTitle = document.createElement('h2');
+    
     if (cardObject.id === 1) {
       cardDiv.classList.add('d-flex-lg');
+      const cardImg = document.createElement('div');
+      cardImg.classList.add('card-img');
+      cardImgContent = `
+      <img src=${cardObject.imageMobile} alt="fantastic-card-image" width="290" class="d-none-lg" />
+      <img src=${cardObject.imageDesktop} alt="fantastic-card-image2" class="d-none d-block-lg width-93">`
+      cardImg.innerHTML = cardImgContent;
+      cardDiv.appendChild(cardImg);
+      
+      const story = document.createElement('div');
+      story.classList.add('story');
+      story.appendChild(cardName);
+      cardDiv.appendChild(story);
+      
+      title.classList.add('margin-right-23-lg');
+      
     } else {
       cardDiv.classList.add('card-background-image', `card-background-image-lg${cardObject.id - 1}`, 'pos-absolute-lg');
+      cardDiv.appendChild(cardName);
+
+      title.classList.add('card-headline', 'd-none-lg');
+      desktopTitle.classList.add('card-headline', 'd-none', 'd-block-lg');
+      desktopTitle.textContent = cardObject.titleDesktop;
+      cardName.appendChild(desktopTitle);
     }
+
+    if (cardObject.id === 2){
+      cardName.classList.add('d-none-lg');
+      title.classList.remove('d-none-lg');
+      cardName.removeChild(desktopTitle);
+    }
+
 
     cardArticle.appendChild(cardDiv);
   });
