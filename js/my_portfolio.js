@@ -82,13 +82,35 @@ function render() {
     cardName.appendChild(title);
 
     const desktopTitle = document.createElement('h2');
+
     const cardText = document.createElement('div');
     cardText.classList.add('card-text');
-    cardDiv.appendChild(cardText);
+
     const cardDescription = document.createElement('p');
     cardText.appendChild(cardDescription);
     cardDescription.textContent = cardObject.shortDescription;
-    
+
+    const cardSkills = document.createElement('div');
+    cardSkills.classList.add('card-skills');
+
+    const listSkills = document.createElement('ul');
+    listSkills.classList.add('skills', 'd-flex', 'list-style-none');
+    cardSkills.appendChild(listSkills);
+
+    let tagArray = []
+    cardObject.tags.forEach((tag) => {
+      const listItem = document.createElement('li');
+      listItem.classList.add('skill');
+      listItem.textContent = tag;
+      listSkills.appendChild(listItem);
+      tagArray.push(listItem);
+    });
+
+    const cardButton = document.createElement('button');
+    cardButton.classList.add('card-button');
+    cardButton.textContent = 'See Project';
+    cardSkills.appendChild(cardButton);
+
     if (cardObject.id === 1) {
       cardDiv.classList.add('d-flex-lg');
       const cardImg = document.createElement('div');
@@ -98,15 +120,17 @@ function render() {
       <img src=${cardObject.imageDesktop} alt="fantastic-card-image2" class="d-none d-block-lg width-93">`
       cardImg.innerHTML = cardImgContent;
       cardDiv.appendChild(cardImg);
-      
+
       const story = document.createElement('div');
       story.classList.add('story');
       story.appendChild(cardName);
       cardDiv.appendChild(story);
 
-      
       title.classList.add('margin-right-23-lg');
-      
+      story.appendChild(cardText);
+
+      story.appendChild(cardSkills);
+
     } else {
       cardDiv.classList.add('card-background-image', `card-background-image-lg${cardObject.id - 1}`, 'pos-absolute-lg');
       cardDiv.appendChild(cardName);
@@ -116,16 +140,25 @@ function render() {
       desktopTitle.textContent = cardObject.titleDesktop;
       cardName.appendChild(desktopTitle);
       cardDescription.classList.add('card-headline-text');
-      
+      cardDiv.appendChild(cardText);
+      cardDiv.appendChild(cardSkills);
+
+      tagArray.forEach((tag) => {
+        tag.classList.add('skillcard');
+      });
+
+      cardButton.classList.add('btn-cards', 'd-none-lg');
     }
 
-    if (cardObject.id === 2){
+    if (cardObject.id === 2) {
       cardName.classList.add('d-none-lg');
       title.classList.remove('d-none-lg');
       cardName.removeChild(desktopTitle);
       cardText.classList.add('d-none-lg');
+      listSkills.classList.add('d-none-lg');
+      cardButton.classList.add('btn-card-lg');
+      cardButton.classList.remove('d-none-lg');
     }
-
 
     cardArticle.appendChild(cardDiv);
   });
