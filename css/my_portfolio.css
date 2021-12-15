@@ -7,7 +7,8 @@
 }
 
 body {
-  font-family: "Poppins", "Crete Round", "Roboto", "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Poppins", "Crete Round", "Roboto", "Inter", Arial, Helvetica,
+    sans-serif;
   background: #e5e5e5;
 }
 
@@ -85,7 +86,8 @@ header {
 
   0% {
     filter: hue-rotate(0deg);
-    text-shadow: 0 0 10px #f55800, 0 0 1px #f55800, 0 0 10px #f55800, 0 0 20px #f55800, 0 0 30px #f55800, 0 0 40px #f55800;
+    text-shadow: 0 0 10px #f55800, 0 0 1px #f55800, 0 0 10px #f55800,
+      0 0 20px #f55800, 0 0 30px #f55800, 0 0 40px #f55800;
   }
 }
 
@@ -406,6 +408,55 @@ button:active {
   line-height: 35px;
   height: 37px;
   text-align: center;
+}
+
+#parentModal {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.modal {
+  width: 95%;
+  background: white;
+  margin-left: 2.5%;
+  height: 90%;
+  position: fixed;
+  z-index: 2;
+  top: 4%;
+}
+
+.modal-skill {
+  margin-top: 1%;
+}
+
+.modaltext {
+  text-align: left;
+  width: 95%;
+  margin-left: 4.5%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #344563;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 2% 2% 4%;
+  width: 95%;
+}
+
+.modalbtn {
+  width: 150%;
+  margin-left: -7%;
+}
+
+.closeButton {
+  position: absolute;
+  right: 3%;
 }
 
 #about-us {
@@ -834,12 +885,12 @@ button:active {
     width: 90%;
   }
 
-  .skill1 {
+  .skill {
     margin: 4% 1% 4% 4%;
     border: 1px solid #8993a4;
-    width: 4em;
+    box-sizing: border-box;
     background: rgba(255, 255, 255, 0.24);
-    padding: 0;
+    padding: 5px;
   }
 
   .skill2 {
@@ -939,6 +990,54 @@ button:active {
 
   #work-section {
     position: relative;
+  }
+
+  #parentModal {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-img img {
+    height: 94%;
+  }
+
+  .modal {
+    width: 90%;
+    background: white;
+    margin-left: 5%;
+    height: 85%;
+    position: fixed;
+    z-index: 2;
+    top: 10%;
+  }
+
+  .modaltext {
+    text-align: left;
+    width: 63%;
+    margin-left: 0%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #344563;
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 2% 0 2%;
+    width: 140%;
+  }
+
+  .modal-story {
+    margin-left: 3%;
+  }
+
+  .modalbtn {
+    width: 123%;
+    margin-left: -7%;
+    margin-top: 10%;
   }
 
   .group5 {
