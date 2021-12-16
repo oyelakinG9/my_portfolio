@@ -717,6 +717,22 @@ button:active {
   margin-left: 4em;
 }
 
+.error {
+  border: 1px solid red;
+  box-sizing: border-box;
+  color: red;
+  padding: 2px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.error-icon input {
+  background-image: url(../assets/images/exclamation-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 5%;
+  background-position: 90% center;
+}
+
 @media screen and (min-width: 992px) {
   .list-style-none {
     list-style: none;
@@ -1217,6 +1233,13 @@ button:active {
     font-family: "Inter", sans-serif;
     font-size: 15px;
     line-height: 24px;
+  }
+
+  .error-icon input {
+    background-image: url(../assets/images/exclamation-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 2%;
+    background-position: 90% center;
   }
 
   .form-control textarea {
