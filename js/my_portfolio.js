@@ -88,7 +88,7 @@ function popUpWindow(cardObject) {
           <h2 class="d-none d-block-lg">${cardObject.titleDesktop}</h2>
         </div>
         <div>
-          <button id="closeButton"><p class="closeButton">X<p></button>
+          <button id="closeButton" class="closeButton"><p>X<p></button>
         </div>
       </div>
       <div class="card-skills">
