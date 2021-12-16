@@ -51,7 +51,7 @@ while (idCount <= 6) {
   if (index > 4) {
     index = 2;
   }
-  const other = createCard('assets/images/Img_Placeholder1.png', `assets/images/Img_Placeholder3.png`, 'Profesional Art Printing Data',
+  const other = createCard('assets/images/Img_Placeholder1.png', 'assets/images/Img_Placeholder3.png', 'Profesional Art Printing Data',
     `${titles[index - 2]}`,
     `A daily selection of privately personalized reads; no accounts or sign-ups required. 
   has been the industry's standard`, `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -64,6 +64,63 @@ while (idCount <= 6) {
 }
 
 const workSection = document.querySelector('#work-section');
+
+function generateSkills(arr) {
+  let skills = '';
+  arr.forEach((tag) => {
+    skills += `<li class="skill">${tag}</li>`;
+  });
+  return skills;
+}
+
+function popUpWindow(cardObject) {
+  const parentModal = document.createElement('article');
+  parentModal.id = 'parentModal';
+  parentModal.classList.add('parentModal');
+
+  const parentModalContent = ` 
+  <div class="modal">
+  <div class="modal-header">
+    <div>
+      <div class="modal-header">
+        <div class="modal-headline">
+          <h2 class="d-none-lg">${cardObject.title}</h2>
+          <h2 class="d-none d-block-lg">${cardObject.titleDesktop}</h2>
+        </div>
+        <div>
+          <button id="closeButton"><p class="closeButton">X<p></button>
+        </div>
+      </div>
+      <div class="card-skills">
+        <ul class="skills d-flex list-style-none modal-skill">
+          ${generateSkills(cardObject.tags)}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="modal-story d-flex-lg">
+    <div class="modal-img">
+      <img src=${cardObject.imageMobile} alt="modal1" class="d-none-lg" width="91%">
+      <img src=${cardObject.imageDesktop} alt="modal2" class="d-none d-block-lg" width="90%">
+    </div>
+    <div class="modaltext">
+      <p>${cardObject.longDescription}</p>
+      <div class="modalbtn">
+        <a rel="noopener noreferrer" href= ${cardObject.linkLive} aria-label="See Live" target="_blank" class="card-button">See Live <img src="assets/images/seelive1.png" alt="seelive"></a>
+        <a rel="noopener noreferrer" href= ${cardObject.linkSource} aria-label="See Source" target="_blank" class="card-button">See Source <img src="assets/images/seesource.png" alt="seesource"></a>
+      </div>
+    </div>
+  </div>
+</div>`;
+
+  parentModal.innerHTML = parentModalContent;
+  workSection.appendChild(parentModal);
+
+  const closeButton = document.querySelector('#closeButton');
+  closeButton.addEventListener('click', () => {
+    workSection.removeChild(parentModal);
+  });
+}
 
 function render() {
   cards.forEach((cardObject) => {
@@ -97,7 +154,7 @@ function render() {
     listSkills.classList.add('skills', 'd-flex', 'list-style-none');
     cardSkills.appendChild(listSkills);
 
-    let tagArray = []
+    const tagArray = [];
     cardObject.tags.forEach((tag) => {
       const listItem = document.createElement('li');
       listItem.classList.add('skill');
@@ -110,14 +167,17 @@ function render() {
     cardButton.classList.add('card-button');
     cardButton.textContent = 'See Project';
     cardSkills.appendChild(cardButton);
+    cardButton.addEventListener('click', () => {
+      popUpWindow(cardObject);
+    });
 
     if (cardObject.id === 1) {
       cardDiv.classList.add('d-flex-lg');
       const cardImg = document.createElement('div');
       cardImg.classList.add('card-img');
-      cardImgContent = `
+      const cardImgContent = `
       <img src=${cardObject.imageMobile} alt="fantastic-card-image" width="290" class="d-none-lg" />
-      <img src=${cardObject.imageDesktop} alt="fantastic-card-image2" class="d-none d-block-lg width-93">`
+      <img src=${cardObject.imageDesktop} alt="fantastic-card-image2" class="d-none d-block-lg width-93">`;
       cardImg.innerHTML = cardImgContent;
       cardDiv.appendChild(cardImg);
 
@@ -130,7 +190,6 @@ function render() {
       story.appendChild(cardText);
 
       story.appendChild(cardSkills);
-
     } else {
       cardDiv.classList.add('card-background-image', `card-background-image-lg${cardObject.id - 1}`, 'pos-absolute-lg');
       cardDiv.appendChild(cardName);

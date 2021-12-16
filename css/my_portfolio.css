@@ -7,7 +7,13 @@
 }
 
 body {
-  font-family: "Poppins", "Crete Round", "Roboto", "Inter", Arial, Helvetica,
+  font-family:
+    "Poppins",
+    "Crete Round",
+    "Roboto",
+    "Inter",
+    Arial,
+    Helvetica,
     sans-serif;
   background: #e5e5e5;
 }
@@ -86,8 +92,13 @@ header {
 
   0% {
     filter: hue-rotate(0deg);
-    text-shadow: 0 0 10px #f55800, 0 0 1px #f55800, 0 0 10px #f55800,
-      0 0 20px #f55800, 0 0 30px #f55800, 0 0 40px #f55800;
+    text-shadow:
+      0 0 10px #f55800,
+      0 0 1px #f55800,
+      0 0 10px #f55800,
+      0 0 20px #f55800,
+      0 0 30px #f55800,
+      0 0 40px #f55800;
   }
 }
 
@@ -302,6 +313,14 @@ header {
   width: 95%;
 }
 
+.skill {
+  margin: 4% 1% 4% 4%;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 5px;
+}
+
 .skill1 {
   margin: 4% 1% 4% 4%;
   border: 1px solid #8993a4;
@@ -411,9 +430,12 @@ button:active {
 }
 
 #parentModal {
+  position: fixed;
+  z-index: 2;
+  top: 4%;
   width: 100%;
   height: 100%;
-  display: none;
+  backdrop-filter: blur(2px);
 }
 
 .modal {
@@ -421,9 +443,6 @@ button:active {
   background: white;
   margin-left: 2.5%;
   height: 90%;
-  position: fixed;
-  z-index: 2;
-  top: 4%;
 }
 
 .modal-skill {
@@ -998,7 +1017,7 @@ button:active {
   }
 
   .modal-img img {
-    height: 94%;
+    height: auto;
   }
 
   .modal {
@@ -1013,6 +1032,7 @@ button:active {
 
   .modaltext {
     text-align: left;
+    height: 80%;
     width: 63%;
     margin-left: 0%;
     font-family: "Inter", sans-serif;
@@ -1021,6 +1041,9 @@ button:active {
     font-size: 16px;
     line-height: 16px;
     color: #344563;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .modal-header {
@@ -1032,6 +1055,7 @@ button:active {
 
   .modal-story {
     margin-left: 3%;
+    height: 80%;
   }
 
   .modalbtn {
