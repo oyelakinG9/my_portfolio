@@ -726,6 +726,13 @@ button:active {
   display: inline-block;
 }
 
+.error-icon input {
+  background-image: url(../assets/images/exclamation-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 5%;
+  background-position: 90% center;
+}
+
 @media screen and (min-width: 992px) {
   .list-style-none {
     list-style: none;
@@ -1228,6 +1235,13 @@ button:active {
     line-height: 24px;
   }
 
+  .error-icon input {
+    background-image: url(../assets/images/exclamation-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 2%;
+    background-position: 90% center;
+  }
+
   .form-control textarea {
     padding: 10px;
     border: 0 solid #979493;
@@ -1283,5 +1297,4 @@ button:active {
   .github2 {
     margin-left: 4em;
   }
-
 }
