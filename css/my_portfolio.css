@@ -442,7 +442,8 @@ button:active {
   width: 95%;
   background: white;
   margin-left: 2.5%;
-  height: 90%;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .modal-skill {
@@ -1064,7 +1065,7 @@ button:active {
     width: 85%;
     background: white;
     margin-left: 8%;
-    height: 60%;
+    height: 70%;
     position: fixed;
     z-index: 2;
     top: 10%;
