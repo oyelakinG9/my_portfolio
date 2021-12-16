@@ -470,7 +470,7 @@ button:active {
   display: flex;
   justify-content: space-between;
   margin: 2% 2% 2% 4%;
-  width: 95%;
+  width: 100%;
 }
 
 .modalbtn {
@@ -492,10 +492,6 @@ button:active {
 
 .modalbtn img {
   margin-left: 20px;
-}
-
-.modal-header {
-  width: 100%;
 }
 
 .modal-header h2 {
