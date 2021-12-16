@@ -717,6 +717,15 @@ button:active {
   margin-left: 4em;
 }
 
+.error {
+  border: 1px solid red;
+  box-sizing: border-box;
+  color: red;
+  padding: 2px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
 @media screen and (min-width: 992px) {
   .list-style-none {
     list-style: none;
@@ -1274,4 +1283,5 @@ button:active {
   .github2 {
     margin-left: 4em;
   }
+
 }
